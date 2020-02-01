@@ -59,13 +59,21 @@ main {
 header {
 	display: flex;
 	justify-content: space-around;
-
+	margin: 32px 0;
 }
 ul.nav-menu {
 	display: flex;
 	text-transform: uppercase;
+
 }
 div.wrapper {
 	width: 1344px;
 	margin: 0 auto;
 	} 
+div.side-menu {
+	margin-right: 32px;
+}
+div.html-sample {
+	display: flex;
+	flex-direction: column;
+}
