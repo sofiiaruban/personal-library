@@ -10,7 +10,7 @@
     <div class="wrapper">
         <header>
             <!--Logo-->
-            <a class="logo" href="">MYLIB</a>
+            <a class="logo" href="#">&lt;--MYLIB--&gt;</a>
             <nav>
             <!--Navigation-->
             <ul class="nav-menu">
@@ -23,7 +23,7 @@
         </nav>
         </header>
         <main>
-            <div class="side-menu"> <!--It has hover-->
+            <aside class="side-menu"> <!--It has hover-->
                 <ul>
                     <li>Typography</li>
                     <li>lists</li>
@@ -32,27 +32,36 @@
                     <li>tables</li>
                     <li>tooltips</li>
                 </ul>
-            </div>
+            </aside>
             <div class="main-content">
-                <p class="typog-title">Typography</p>
+                <p class="typog-title">Typography</p><!--Need to revise it-->
                 <div class="info-bar">
-                    <!--<div class="info-icon">
-                        <span>i</span>
-                    </div>-->
-                   <dl><dt class="info">i</dt>
-                        <dd>base font size 16px</dd>
-                        <dd>line-height 1.3</dd>
-                        <dd>scale factor 1.5</dd>
-                    </dl>
+                   <div class="info-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12ZM24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM9.25874 15.4331C9.18374 15.7706 9.14624 16.0175 9.14624 16.1737C9.14624 16.6175 9.28374 16.9487 9.55874 17.1675C9.83999 17.38 10.1556 17.4862 10.5056 17.4862C11.1244 17.4862 11.7056 17.2237 12.2494 16.6987C12.5806 16.38 13.0587 15.7612 13.6837 14.8425L13.2619 14.5706C13.0431 14.9331 12.79 15.28 12.5025 15.6112C12.215 15.9425 11.9744 16.1081 11.7806 16.1081C11.7056 16.1081 11.6369 16.0894 11.5744 16.0519C11.5119 16.0081 11.4806 15.9175 11.4806 15.78C11.4806 15.6425 11.5369 15.3425 11.6494 14.88C11.6931 14.6987 11.7775 14.3737 11.9025 13.905L13.3931 8.43937L12.5681 8.59875C12.2806 8.655 11.79 8.72375 11.0962 8.805C10.4087 8.88 9.88374 8.93 9.52124 8.955V9.46125C9.95249 9.48 10.2494 9.52062 10.4119 9.58312C10.5744 9.64562 10.6556 9.805 10.6556 10.0612C10.6556 10.105 10.6494 10.1519 10.6369 10.2019C10.6306 10.2519 10.6212 10.3019 10.6087 10.3519L9.45562 14.6644C9.36812 14.9831 9.30249 15.2394 9.25874 15.4331ZM13.7681 4.53C13.5181 4.28 13.215 4.155 12.8587 4.155C12.5025 4.155 12.1962 4.28 11.94 4.53C11.69 4.78 11.565 5.08312 11.565 5.43937C11.565 5.79562 11.69 6.10187 11.94 6.35812C12.1962 6.60812 12.5025 6.73312 12.8587 6.73312C13.215 6.73312 13.5181 6.60812 13.7681 6.35812C14.0181 6.10187 14.1431 5.79562 14.1431 5.43937C14.1431 5.08312 14.0181 4.78 13.7681 4.53Z" fill="#D5C4B2"/>
+                        </svg>
+                    </div>
+                   <!--<dl class="info-bar">
+                        <dt class="info">i</dt>
+                        <dd class="explanation">base font size 16px</dd>
+                        <dd class="explanation">line-height 1.3</dd>
+                        <dd class="explanation">scale factor 1.5</dd>
+                    </dl>-->
+                    <ul class="info-bar">
+                        <li class="explanation">base font size 16px</li>
+                        <li class="explanation">line-height 1.3</li>
+                        <li class="explanation">scale factor 1.5</li>
+                    </ul>
                 </div>
                 <div class="headings-samples">
                     <p class="headings-title">Headings</p>
-                        <h1 class=”h1”>Headline h1</h1>
-                        <h2 class=”h2”>Headline h2</h2>
-                        <h3 class=”h3”>Headline h3</h3>
-                        <h4 class=”h4”>Headline h4</h4>
-                        <h5 class=”h5”>Headline h5</h5>
-                        <h6 class=”h6”>Headline h6</h6>
+                        <h1 class="h1">Headline h1</h1>
+                        <h2 class="h2">Headline h2</h2>
+                        <h3 class="h3">Headline h3</h3>
+                        <h4 class="h4">Headline h4</h4>
+                        <h5 class="h5">Headline h5</h5>
+                        <h6 class="h6">Headline h6</h6>
+                     <div class="samples-container">
                     <div class="html-sample">
                     <p>&lt;h1 class=”h1”&gt;Headline h1&lt;/h1&gt;</p>
                     <p>&lt;h2 class=”h2”&gt;Headline h2&lt;/h2&gt;</p>
@@ -61,62 +70,68 @@
                     <p>&lt;h5 class=”h5”&gt;Headline h5&lt;/h5&gt;</p>
                     <p>&lt;h6 class=”h6”&gt;Headline h6&lt;/h6&gt;</p>
                     </div>
+                    </div>
+                    <div class="samples-container">
                     <div class="css-sample">
-                        <!--h1, .h1 {
-                          font-size: 54px;
-                          line-height: 63px;
-                          margin-bottom: 42px;
-                        }
-                        h2, .h2 {
-                          font-size: 36px;
-                          line-height: 42px;
-                          margin-bottom: 21px;
-                        }
-                        h3, .h3 {
-                          font-size: 24px;
-                          line-height: 42px;
-                          margin-bottom: 21px;
-                        }
-                        h4, .h4 {
-                          font-size: 16px;
-                          line-height: 21px;
-                          margin-bottom: 21px;
-                        }
-                        h5, .h5 {
-                          font-size: 16px;
-                          line-height: 21px;
-                          margin-bottom: 21px;
-                        }
-                        h6, .h6 {
-                          font-size: 16px;
-                          line-height: 21px;
-                          margin-bottom: 21px;
-                        }-->
+                       <p>h1, .h1 {</p>
+                        <p>font-size: 54px;</p>
+                        <p>line-height: 63px;</p>
+                        <p>margin-bottom: 42px;</p>
+                        <p>}</p>
+                        <p>h2, .h2 {</p>
+                        <p>font-size: 36px;</p>
+                        <p>line-height: 42px;</p>
+                        <p>margin-bottom: 21px;</p>
+                        }</p>
+                        <p>h3, .h3 {</p>
+                        <p>font-size: 24px;</p>
+                        <p>line-height: 42px;</p>
+                        <p>margin-bottom: 21px;</p>
+                        <p>}</p>
+                        <p>h4, .h4 {</p>
+                        <p>font-size: 16px;</p>
+                        <p>line-height: 21px;</p>
+                        <p>margin-bottom: 21px;</p>
+                        <p>}</p>
+                        <p>h5, .h5 {</p>
+                        <p>font-size: 16px;</p>
+                        <p>line-height: 21px;</p>
+                        <p>margin-bottom: 21px;</p>
+                        <p>}</p>
+                        <p>h6, .h6 {</p>
+                        <p>font-size: 16px;</p>
+                        <p>line-height: 21px;</p>
+                        <p>margin-bottom: 21px;</p>
+                        <p>}</p>
+                    </div>
                     </div>
                 </div>
                 <div class="body-text">
-                    <p>body text</p>
+                    <p class="body-text-title">body text</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit nisi, elementum eu ultricies sed, rutrum ut justo. Aenean tincidunt dui ante, eu pellentesque nibh ullamcorper at. In volutpat vehicula nisl, eu faucibus purus tempor a. Mauris tempus, ipsum id fringilla rutrum, justo urna fringilla ipsum, vitae accumsan diam nibh at sem. Etiam feugiat sapien bibendum nibh sodales, ut faucibus sapien porta. In ac elit ex.</p>
                     <p>Etiam placerat est et eros consectetur porttitor. Vestibulum elementum odio ut neque vestibulum aliquam. Duis libero sapien, porttitor eu quam at, condimentum cursus sapien. Fusce pretium et nisl pretium molestie. Curabitur nunc risus, porta nec lacinia sed, tincidunt ac tellus. Pellentesque neque velit, tristique ac ullamcorper in, euismod quis elit. Quisque non maximus purus.</p>
                 </div>
+                <div class="samples-container">
                 <div class="html-sample">
-                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit nisi, elementum eu ultricies sed, rutrum ut justo. Aenean tincidunt dui ante, eu pellentesque nibh ullamcorper at. In volutpat vehicula nisl, eu faucibus purus tempor a. Mauris tempus, ipsum id fringilla rutrum, justo urna fringilla ipsum, vitae accumsan diam nibh at sem. Etiam feugiat sapien bibendum nibh sodales, ut faucibus sapien porta. In ac elit ex.</p>
-                    <p>Etiam placerat est et eros consectetur porttitor. Vestibulum elementum odio ut neque vestibulum aliquam. Duis libero sapien, porttitor eu quam at, condimentum cursus sapien. Fusce pretium et nisl pretium molestie. Curabitur nunc risus, porta nec lacinia sed, tincidunt ac tellus. Pellentesque neque velit, tristique ac ullamcorper in, euismod quis elit. Quisque non maximus purus.</p>-->
+                    <p>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut velit nisi, elementum eu ultricies sed, rutrum ut justo. Aenean tincidunt dui ante, eu pellentesque nibh ullamcorper at. In volutpat vehicula nisl, eu faucibus purus tempor a. Mauris tempus, ipsum id fringilla rutrum, justo urna fringilla ipsum, vitae accumsan diam nibh at sem. Etiam feugiat sapien bibendum nibh sodales, ut faucibus sapien porta. In ac elit ex.&lt;/p&gt;</p>
+                    <p>&lt;p&gt;Etiam placerat est et eros consectetur porttitor. Vestibulum elementum odio ut neque vestibulum aliquam. Duis libero sapien, porttitor eu quam at, condimentum cursus sapien. Fusce pretium et nisl pretium molestie. Curabitur nunc risus, porta nec lacinia sed, tincidunt ac tellus. Pellentesque neque velit, tristique ac ullamcorper in, euismod quis elit. Quisque non maximus purus.&lt;/p&gt;</p>
                 </div>
+                </div>
+                <div class="samples-container">
                 <div class="css-sample">
-                     <!--body {
-                    font-size: 16px;
-                    line-height: 21px;
-                    font-family: Helvetica, Arial, sans-serif;
-                    color: #000;
-                    }
-                    p {
-                      margin-bottom: 21px;
-                    }-->
+                     <p>body {</p>
+                    <p>font-size: 16px;</p>
+                    <p>line-height: 21px;</p>
+                    <p>font-family: Helvetica, Arial, sans-serif;</p>
+                    <p>color: #000;</p>
+                    <p>}</p>
+                    <p>p {</p>
+                      <p>margin-bottom: 21px;</p>
+                    <p>}</p>
+                </div>
                 </div>
             </div>
         </main>
-        <footer></footer>
      </div>
     </body>
 </html>
