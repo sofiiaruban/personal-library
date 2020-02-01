@@ -54,5 +54,18 @@ body {
 }
 main {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
+header {
+	display: flex;
+	justify-content: space-around;
+
+}
+ul.nav-menu {
+	display: flex;
+	text-transform: uppercase;
+}
+div.wrapper {
+	width: 1344px;
+	margin: 0 auto;
+	} 
