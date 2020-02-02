@@ -64,7 +64,7 @@ div.wrapper {
 main {
 	display: flex;
 	flex-direction: row;
-	}
+}
 header {
 	display: flex;
 	justify-content: space-between;
@@ -79,7 +79,6 @@ ul.nav-menu {
 	padding-right: 48px;
 }
 ul.nav-menu:hover {
-
 }
 ul.nav-menu> li {
 	padding: 0 20px;
@@ -102,7 +101,6 @@ aside.side-menu {
 	text-transform: uppercase;
 	padding-left: 48px;
 	line-height: 32px;
-
 }
 div.main-content  {
 	padding:  0 48px 71px 48px;
@@ -135,7 +133,7 @@ div.info-bar > li.explanation {
 div.info-icon {
 	margin: 0 32px;
 }
-p.headings-title {
+p.sub-title {
 	color: #D5C4B2;
 	font-size: 24px;
 	text-transform: uppercase;
@@ -143,37 +141,37 @@ p.headings-title {
 	padding-bottom: 16px;
 	margin-bottom: 24px;
 	}
-h1, .h1 {
+h1.h1 {
   font-size: 54px;
   line-height: 63px;
   margin-bottom: 42px;
 }
-h2, .h2 {
+h2.h2 {
   font-size: 36px;
   line-height: 42px;
   margin-bottom: 21px;
 }
-h3, .h3 {
+h3.h3 {
   font-size: 24px;
   line-height: 42px;
   margin-bottom: 21px;
 }
-h4, .h4 {
+h4.h4 {
   font-size: 16px;
   line-height: 21px;
   margin-bottom: 21px;
 }
-h5, .h5 {
+h5.h5 {
   font-size: 16px;
   line-height: 21px;
   margin-bottom: 21px;
 }
-h6, .h6 {
+h6.h6 {
   font-size: 16px;
   line-height: 21px;
   margin-bottom: 21px;
 }
-div.html-sample {
+div.sample {
 	display: flex;
 	flex-direction: column;
 	/*width: 1072px;*/
@@ -190,25 +188,7 @@ div.samples-container {
 	border-radius: 8px;
 	padding: 16px;
 	margin-bottom: 24px;
-	}
-div.css-sample {
-	display: flex;
-	flex-direction: column;
-	background: #000000;
-	border-radius: 8px;
-	font-size: 16px;
-	line-height: 21px;
-	padding: 48px;
-	color: #D5C4B2;
 }
-p.body-text-title {
-	color: #D5C4B2;
-	font-size: 24px;
-	text-transform: uppercase;
-	border-bottom: 1px solid #D5C4B2;
-	padding-bottom: 16px;
-	margin-bottom: 24px;
-	}
 div.body-text > p {
   margin-bottom: 21px;
 }
