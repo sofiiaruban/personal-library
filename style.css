@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	/* Added it by yourself*/
+	/* Added it by myself*/
 	text-decoration: none;
 }
 
@@ -45,6 +45,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+/* Added it by myself*/
 a, a:visited, a:hover, a:active {
   color: inherit;
 }
@@ -58,7 +59,7 @@ body {
 	line-height: 21px;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #000;
-	}
+}
 div.wrapper {
 	margin: 0 auto;
 } 
@@ -73,9 +74,10 @@ header {
 	background: #000000;
 }
 a.logo {
-	cursor: pointer;
 	padding-left: 48px;
+	font-size: 24px;
 	font-weight: bold;
+	color: #FFFFFF;
 }
 ul.nav-menu {
 	display: flex;
@@ -83,9 +85,13 @@ ul.nav-menu {
 	color: #FFFFFF;
 	text-transform: uppercase;
 	padding-right: 48px;
+	justify-content: flex-end;
 }
 ul.nav-menu> li {
 	padding: 0 20px;
+}
+ul.nav-menu> li:last-child {
+	padding-right: 0;
 }
 ul.nav-menu> li:hover {
 	color: #D5C4B2;
@@ -98,10 +104,12 @@ aside.side-menu {
 	text-transform: uppercase;
 	line-height: 32px;
 }
+ul.side-list {
+	width: 182px;
+}
 ul.side-list > li:hover {
 	list-style-type:disc;
 }
-
 div.main-content  {
 	padding:  0 48px 71px 48px;
 	background: #E5E5E5;
@@ -110,6 +118,7 @@ p.typog-title {
 	color: #D5C4B2;
 	text-transform: uppercase;
 	font-size: 36px;
+	font-weight: bold;
 	padding: 24px 0;
 	margin-bottom: 24px;
 	border-bottom: 1px solid #D5C4B2;
@@ -133,6 +142,7 @@ div.info-icon {
 p.sub-title {
 	color: #D5C4B2;
 	font-size: 24px;
+	font-weight: bold;
 	text-transform: uppercase;
 	border-bottom: 1px solid #D5C4B2;
 	padding-bottom: 16px;
@@ -142,6 +152,7 @@ h1.h1 {
   font-size: 54px;
   line-height: 63px;
   margin-bottom: 42px;
+  font-weight: bold;
 }
 h2.h2 {
   font-size: 36px;
@@ -152,11 +163,16 @@ h3.h3 {
   line-height: 42px;
 }
 h2,h3,h4,h5,h6 {
+  font-weight: bold;
   margin-bottom: 21px;
+}
+div.body-text > p {
+ margin-bottom: 21px;
 }
 div.sample {
 	display: flex;
 	flex-direction: column;
+	font-family: Hack;
 	background: #000000;
 	border-radius: 8px;
 	padding: 48px;
@@ -167,8 +183,5 @@ div.samples-container {
 	border-radius: 8px;
 	padding: 16px;
 	margin-bottom: 24px;
-}
-div.body-text > p {
-    margin-bottom: 21px;
 }
 
