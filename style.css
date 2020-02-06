@@ -1,8 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
-*/
-
+   License: none (public domain)*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,7 +23,6 @@ time, mark, audio, video {
 	/* Added it by myself*/
 	text-decoration: none;
 }
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -87,13 +84,13 @@ ul.nav-menu {
 	padding-right: 48px;
 	justify-content: flex-end;
 }
-ul.nav-menu> li {
+.nav-menu> li {
 	padding: 0 20px;
 }
-ul.nav-menu> li:last-child {
+.nav-menu> li:last-child {
 	padding-right: 0;
 }
-ul.nav-menu> li:hover {
+.nav-menu li a:hover {
 	color: #D5C4B2;
 	padding-bottom: 8px;
 	border-bottom: 1px solid #D5C4B2;
@@ -184,4 +181,3 @@ div.samples-container {
 	padding: 16px;
 	margin-bottom: 24px;
 }
-
