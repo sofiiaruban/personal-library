@@ -102,7 +102,7 @@ aside.side-menu {
 	line-height: 32px;
 }
 ul.side-list {
-	width: 182px;
+	width: 17%;
 }
 ul.side-list > li:hover {
 	list-style-type:disc;
