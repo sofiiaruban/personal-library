@@ -94,7 +94,8 @@ ul.nav-menu {
 .nav-menu> li:last-child {
 	padding-right: 0;
 }
-.nav-menu li a:hover {
+.nav-menu li a:hover,
+.nav-menu li a.active {
 	color: #D5C4B2;
 	padding-bottom: 8px;
 	border-bottom: 1px solid #D5C4B2;
