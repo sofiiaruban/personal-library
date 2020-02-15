@@ -145,7 +145,7 @@ div.info-bar > li.explanation {
 div.info-icon {
 	margin: 0 32px;
 }
-p.sub-title {
+h2.sub-title {
 	color: #D5C4B2;
 	font-size: 24px;
 	font-weight: bold;
@@ -175,10 +175,10 @@ h2,h3,h4,h5,h6 {
 div.body-text > p {
  margin-bottom: 21px;
 }
-div.sample {
+code.sample {
 	display: flex;
 	flex-direction: column;
-	font-family: Hack;
+	font-family: HackRegular;
 	background: #000000;
 	border-radius: 8px;
 	padding: 48px;

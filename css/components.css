@@ -114,8 +114,9 @@ ul.side-list > li:hover {
 }
 div.main-content  {
 	background: #E5E5E5;
+	width: 100%;
 }
-h1.typog-title {
+h1.chevron-title {
 	color: #D5C4B2;
 	text-transform: uppercase;
 	font-size: 36px;
@@ -144,41 +145,65 @@ div.info-bar > li.explanation {
 }
 div.info-icon {
 	margin: 0 32px;
-}
-p.sub-title {
-	color: #D5C4B2;
-	font-size: 24px;
-	font-weight: bold;
+} 
+/*Chevron*/
+div.chevron-gradient {
+	background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 127.92%);
+	padding: 2px 35px;
 	text-transform: uppercase;
-	border-bottom: 1px solid #D5C4B2;
-	padding-bottom: 16px;
-	margin-bottom: 24px;
+	text-align: right;
+	margin-bottom: 61px;
 }
-h1.h1 {
-  font-size: 54px;
-  line-height: 63px;
-  margin-bottom: 42px;
-  font-weight: bold;
+.chevron-item {
+	display: inline-block;
+	position:relative; 
+	margin-right: 50px;
+	padding: 0 25px;
+	background-color: rgba(255, 255, 255, 1);
 }
-h2.h2 {
-  font-size: 36px;
-  line-height: 42px;
+.chevron-item a {
+	color: #000;
+	font-size: 32px;
+	line-height: 96px;
+	display: block;
 }
-h3.h3 {
-  font-size: 24px;
-  line-height: 42px;
+.chevron-item:before {
+	position: absolute;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 48px 0 48px 25px;
+    border-color: #FFFFFF #FFFFFF #FFFFFF transparent;
+    top: 0;
+    left: -25px;
+    z-index: 5;
 }
-h2,h3,h4,h5,h6 {
-  font-weight: bold;
-  margin-bottom: 21px;
+.chevron-item:after {
+	position: absolute;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 48px 0 48px 25px;
+    border-color: transparent transparent transparent #FFFFFF;
+    top: 0;
+    right: -25px;
+    z-index: 5;
 }
-div.body-text > p {
- margin-bottom: 21px;
+.chevron-item:hover {
+	background-color: rgba(255, 255, 255, 0.7);
 }
-div.sample {
+.chevron-item:hover:after,
+.chevron-item:hover:before {
+	opacity: 0.7
+}
+code.sample {
 	display: flex;
 	flex-direction: column;
-	font-family: Hack;
+	font-family: HackRegular;
 	background: #000000;
 	border-radius: 8px;
 	padding: 48px;
